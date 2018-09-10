@@ -18,7 +18,7 @@ zuul:
       path: /api/auth/**
       url: http://gateway:18080
     user-service:
-      path: /api/user/**
+      path: /api/user/v_poc/**
       url: http://gateway:18081
     board-service:
       path: /api/board/**
